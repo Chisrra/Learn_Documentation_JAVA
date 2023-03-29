@@ -48,10 +48,21 @@ public class Main {
 
         //Probando enum y clase Usuario
         Usuario usuario1 = new Usuario("Marquitos", NivelAcceso.INVITADO);
+
         System.out.printf("Nombre del usuario %s \n", usuario1.getNombre());
         System.out.printf("Nivel de acceso del usuario: %s \n", usuario1.getNivelAcceso());
         usuario1.setNivelAcceso(NivelAcceso.USUARIO_REGISTRADO);
         System.out.printf("El nuevo nivel de usuario es: %s \n", usuario1.getNivelAcceso());
+
+        //Probando interfaz Vehiculo y clase moto
+        Moto miMoto = new Moto("VITALIA");
+        System.out.println(miMoto.getModelo());
+        miMoto.arrancar();
+        miMoto.acelerar();
+        miMoto.acelerar();
+        System.out.println(miMoto.getVelocidad());
+        miMoto.frenar();
+        System.out.println(miMoto.getVelocidad());
 
 
     }
