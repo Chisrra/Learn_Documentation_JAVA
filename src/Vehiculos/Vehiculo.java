@@ -1,5 +1,7 @@
+package Vehiculos;
+
 /**
- * La interfaz proporciona los metodos que todo vehiculo deveria tener.
+ * La interfaz proporciona los metodos que los vehiculo deveria tener.
  * Permitira arrancar, acelerar y frenar
  */
 public interface Vehiculo {

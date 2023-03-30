@@ -1,3 +1,5 @@
+import Vehiculos.Moto;
+
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
@@ -21,6 +23,7 @@ public class Main {
         System.out.println(sum(20, 10));
 
         //Probando clase Persona
+        System.out.println();
         Persona persona1 = new Persona("Lalo", 20);
         System.out.println(persona1.saludar());
         System.out.println(persona1.caminar());
@@ -46,6 +49,7 @@ public class Main {
             System.out.println("Algo salio mal, este es el error:\n" + e);
         }
 
+        System.out.println();
         //Probando enum y clase Usuario
         Usuario usuario1 = new Usuario("Marquitos", NivelAcceso.INVITADO);
 
@@ -54,7 +58,8 @@ public class Main {
         usuario1.setNivelAcceso(NivelAcceso.USUARIO_REGISTRADO);
         System.out.printf("El nuevo nivel de usuario es: %s \n", usuario1.getNivelAcceso());
 
-        //Probando interfaz Vehiculo y clase moto
+        //Probando interfaz Vehiculos.Vehiculo y clase moto
+        System.out.println();
         Moto miMoto = new Moto("VITALIA");
         System.out.println(miMoto.getModelo());
         miMoto.arrancar();

@@ -1,3 +1,5 @@
+package Vehiculos;
+
 /**
  * Esta clase tiene simula de forma muy general las principales funciones y usos de una motocicleta
  */
@@ -7,7 +9,7 @@ public class Moto implements Vehiculo {
     private String modelo;
 
     /**
-     * Genera una nueva instancia de Moto con el modelo de la moto como principal parametro.
+     * Genera una nueva instancia de Vehiculos.Moto con el modelo de la moto como principal parametro.
      * @param modelo de la motocicleta.
      */
     public Moto(String modelo) {
