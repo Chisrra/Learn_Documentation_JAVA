@@ -68,8 +68,6 @@ public class Main {
         System.out.println(miMoto.getVelocidad());
         miMoto.frenar();
         System.out.println(miMoto.getVelocidad());
-
-
     }
 
     /**

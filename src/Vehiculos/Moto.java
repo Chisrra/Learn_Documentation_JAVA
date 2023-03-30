@@ -1,8 +1,10 @@
 package Vehiculos;
-
+import anotaciones.vehiculos.Ciudad;
 /**
  * Esta clase tiene simula de forma muy general las principales funciones y usos de una motocicleta
  */
+@Ciudad(velocidadMax = 130.0, velocidadRecomendada = 60.0)
+
 public class Moto implements Vehiculo {
     private int velocidad;
     private final int aceleracion;
